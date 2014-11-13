@@ -6,5 +6,6 @@ public Node(int data)
 {
 	this.data=data;
 }
-Node next;
+Node next; 
+ // Testing
 }
