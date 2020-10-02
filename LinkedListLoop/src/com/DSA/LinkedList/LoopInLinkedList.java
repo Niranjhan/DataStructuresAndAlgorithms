@@ -16,9 +16,9 @@ public class LoopInLinkedList {
 		h.next= new Node(6);
 		Node l =h;		//Loop is at Node 6
 		h=h.next;
-		h.next= new Node(7);
-		h=h.next;
 		h.next= new Node(8);
+		h=h.next;
+		h.next= new Node(9);
 		h=h.next;
 		h.next = l;  // loop is at Node 6
 		
@@ -36,7 +36,7 @@ public class LoopInLinkedList {
 			System.out.println("p1 data "+p1.data+"  p2 data "+p2.data);
 			p1=p1.next;
 			p2=p2.next.next;
-			++c;
+			c=c+1;
 
 			if(p1==p2)
 			{
